@@ -1165,10 +1165,12 @@ margin-top: 100px !important;
 }
 
 .constructions .card-item.first{
+	margin-bottom: 100px;
 	border-radius: 10px 32px 0 180px;
 }
 .constructions .card-item.second{
-	margin-top: 190px;
+	margin-top: 100px;
+	margin-bottom: 190px;
 	border-radius: 32px 10px 180px 0px;
 }
 
