@@ -1169,9 +1169,12 @@ margin-top: 100px !important;
 	border-radius: 10px 32px 0 180px;
 }
 .constructions .card-item.second{
-	margin-top: 100px;
 	margin-bottom: 190px;
 	border-radius: 32px 10px 180px 0px;
+}
+
+.constructions .card-item:last-child{
+	margin-bottom: 50px;
 }
 
 .constructions .card-item:hover{
