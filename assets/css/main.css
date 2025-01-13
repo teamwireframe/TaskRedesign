@@ -91,7 +91,7 @@ section {
 }
 
 .constructions{
-	padding: 190px 0;
+	padding: 190px 0 40px 0;
 }
 
 .section-bg {
@@ -513,13 +513,12 @@ section {
     top: calc(100% + 30px);
     margin: 0;
     padding: 10px 0;
-    z-index: 99;
+    z-index: 9999;
     opacity: 0;
     visibility: hidden;
     background: #fff;
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
     transition: 0.3s;
-	  z-index: 9999;
   }
 
   .navbar .dropdown ul li {
@@ -855,7 +854,6 @@ margin-top: 100px !important;
 
 .hero .carousel-control-next-icon,
 .hero .carousel-control-prev-icon {
-  background: none;
   font-size: 26px;
   line-height: 0;
   background: rgba(255, 255, 255, 0.2);
@@ -1012,7 +1010,6 @@ margin-top: 100px !important;
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
-  border-radius: 0;
 }
 
 .get-started .php-email-form input:focus,
@@ -2990,7 +2987,6 @@ box-shadow: rgba(149, 157, 165, 0.489) 0px 8px 24px;
   right: 0;
   bottom: 0;
   border: 0;
-  background: none;
   font-size: 16px;
   padding: 0 15px;
   margin: -1px;
@@ -3254,7 +3250,7 @@ box-shadow: rgba(149, 157, 165, 0.489) 0px 8px 24px;
   color: var(--color-primary);
 }
 
-.footer .footer-content .footer-info p {
+.footer .footer-content .footer-info address {
   font-size: 18px;
   line-height: 32px;
   margin-bottom: 0;
@@ -4009,7 +4005,6 @@ section {
     background: #fff;
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
     transition: 0.3s;
-	  z-index: 9999;
   }
 
   .navbar .dropdown ul li {
@@ -4329,8 +4324,7 @@ margin-top: 100px !important;
 
 .hero .carousel-control-next-icon,
 .hero .carousel-control-prev-icon {
-  background: none;
-  font-size: 26px;
+ font-size: 26px;
   line-height: 0;
   background: rgba(255, 255, 255, 0.2);
   color: rgba(255, 255, 255, 0.6);
@@ -4486,7 +4480,6 @@ margin-top: 100px !important;
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
-  border-radius: 0;
 }
 
 .get-started .php-email-form input:focus,
@@ -6466,7 +6459,6 @@ box-shadow: rgba(149, 157, 165, 0.489) 0px 8px 24px;
   right: 0;
   bottom: 0;
   border: 0;
-  background: none;
   font-size: 16px;
   padding: 0 15px;
   margin: -1px;
