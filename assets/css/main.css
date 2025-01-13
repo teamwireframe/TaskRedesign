@@ -772,6 +772,22 @@ margin-top: 100px !important;
   position: relative;
 }
 
+.text-gradient_one {
+ color: #4A4A4A; 
+ background-image: linear-gradient(263deg, #FFFFFF 42.6%, #4A4A4A 42.6%); 
+ background-clip: text; 
+ -webkit-background-clip: text; 
+ -webkit-text-fill-color: transparent; 
+}
+
+.text-gradient_two {
+ color: #4A4A4A; 
+ background-image: linear-gradient(260deg, #FFFFFF 43%, #4A4A4A 43%); 
+ background-clip: text; 
+ -webkit-background-clip: text; 
+ -webkit-text-fill-color: transparent; 
+}
+
 
 .hero .info h2:after {
   /* content: ""; */
@@ -1165,14 +1181,15 @@ margin-top: 100px !important;
 }
 
 .constructions .card-item.first{
-	margin-bottom: 100px;
+	margin-bottom: 190px;
 	border-radius: 10px 32px 0 180px;
 }
 .constructions .card-item.second{
-	margin-top: 100px;
 	margin-bottom: 190px;
 	border-radius: 32px 10px 180px 0px;
 }
+
+
 
 .constructions .card-item:hover{
   box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 8px;
@@ -1783,7 +1800,7 @@ section.features{
 
 .alt-services .carousel-info{
 	padding: 16px;
-	min-height: 200px;
+	min-height: 250px;
 	background: rgba(246,246,246,0.6);
 }
 
