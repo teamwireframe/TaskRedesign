@@ -355,6 +355,13 @@ section {
   right: 0;
 }
 
+@media screen only (min-width: 540px){
+	.header{
+		padding: 30px 0 12px 0;
+		background-color: blue;
+	}
+}
+
 .header .logo img {
   max-height: 55px;
   margin-right: 6px;
