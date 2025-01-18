@@ -99,6 +99,7 @@ section {
 .section-header {
   text-align: left;
 	display: flex;
+	align-items: center;
 	 
 }
 
@@ -207,6 +208,9 @@ section {
 	.section-header.tools p{
 		margin: 0;
 	}
+	.innerpage-title{
+	padding: 20px 0; 
+}
 }
 
 /*--------------------------------------------------------------
@@ -424,6 +428,8 @@ section {
 	background-color: rgba(255,255,255,1);
 	height: 350px;
 	clip-path: polygon(0 0, 45% 0, 53% 100%, 0% 100%);
+	display: flex;
+	align-items: flex-start;
 }
 
 .headerinner .logo img {
@@ -2074,12 +2080,6 @@ section.features{
 /*  border-radius: 50%;*/
   overflow: hidden;
   position: relative;
-}
-
-@media (max-width: 1024px) {
-  .team .member .member-img {
-    margin: 0 60px;
-  }
 }
 
 .team .member .member-img img {
