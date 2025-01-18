@@ -224,9 +224,10 @@ section {
   min-height: 350px;
   position: relative;
   background-size: cover;
-/*  background-position: center;*/
+  background-position: center;
   background-repeat: no-repeat;
   background-position: 250px -400px;
+	background-image: url("../img/breadcrumbs-bg.jpg");
 }
 
 .breadcrumbs:before {
@@ -280,6 +281,16 @@ section {
   padding-right: 10px;
   color: #fff;
   content: "/";
+}
+
+@media (max-width:576px){
+	.breadcrumbs h2{
+		font-size: 48px;
+	}
+	
+	.breadcrumbs{
+		padding-top: 100px;
+	}
 }
 
 /*--------------------------------------------------------------
@@ -450,6 +461,14 @@ section {
 
 .headerinner .logo h1 span {
   color: var(--color-primary);
+}
+
+@media (max-width:576px){
+	.headerinner{
+		clip-path: none;
+		height: 100px;
+		padding: 24px 0;
+	}
 }
 
 /*--------------------------------------------------------------
