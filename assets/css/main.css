@@ -98,7 +98,12 @@ section {
 
 .section-header {
   text-align: left;
+	display: flex;
 	 
+}
+
+.section-header.tools{
+	flex-direction: column;
 }
 
 .section-header h2 {
@@ -198,6 +203,9 @@ section {
 	
 	.section-header{
 		padding: 20px 0;
+	}
+	.section-header.tools p{
+		margin: 0;
 	}
 }
 
@@ -1265,7 +1273,7 @@ margin-top: 100px !important;
 }
 	.constructions .card-item.second{
 	margin-bottom: 190px;
-	border-radius: 32px 10px 90px 0px;
+	border-radius: 10px;
 }
 	.constructions .card-item .card-bg {
 	max-width: 760px;
