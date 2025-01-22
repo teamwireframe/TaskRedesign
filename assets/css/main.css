@@ -578,6 +578,7 @@ section {
     background: #fff;
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
     transition: 0.3s;
+	  border-radius: 0px 8px 0px 8px;
   }
 
   .navbar .dropdown ul li {
@@ -600,6 +601,7 @@ section {
   .navbar .dropdown ul .active:hover,
   .navbar .dropdown ul li:hover>a {
     color: var(--color-primary);
+	  font-weight: 500;
   }
 
   .navbar .dropdown:hover>ul {
@@ -770,12 +772,18 @@ section {
 .hero .carousel-item {
   position: absolute;
   inset: 0;
-  background-size: 75%;
-  background-position: right;
+/*  background-size: 75%;*/
+/*  background-position: right;*/
 /*	background-position: 350px 0;*/
-  background-repeat: no-repeat;
+/*  background-repeat: no-repeat;*/
   overflow: hidden;
   transition-duration: 0.4s;
+}
+
+.hero .carousel-item img{
+	width: 100%;
+	height: auto;
+	object-position: 350px 0;
 }
 
 .hero .carousel-item::before {
@@ -815,7 +823,7 @@ section {
 
 .text-gradient_one {
  color: #4A4A4A; 
- background-image: linear-gradient(263deg, #FFFFFF 42.6%, #4A4A4A 42.6%); 
+ background-image: linear-gradient(261deg, #FFFFFF 51.9%, #4A4A4A 51.9%); 
  background-clip: text; 
  -webkit-background-clip: text; 
  -webkit-text-fill-color: transparent; 
@@ -939,14 +947,6 @@ section {
 }
 */
 
-@media (min-width:1399px) {
-  .text-gradient_one {
-    background-image: linear-gradient(262deg, #FFFFFF 41.7%, #4A4A4A 41.7%);
-  }
-  .text-gradient_two {
-    background-image: linear-gradient(262deg, #FFFFFF 51.8%, #4A4A4A 51.8%);
-  }
-}
 
 
 
