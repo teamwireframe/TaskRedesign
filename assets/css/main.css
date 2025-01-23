@@ -209,6 +209,9 @@ section {
 	
 	.section-header{
 		padding: 20px 0;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
 	}
 	.section-header.tools p{
 		margin: 0;
@@ -784,6 +787,8 @@ section {
 	width: 100%;
 	height: auto;
 	object-position: 350px 0;
+	mix-blend-mode: luminosity;
+	-webkit-mix-blend-mode:luminosity;
 }
 
 .hero .carousel-item::before {
@@ -946,7 +951,6 @@ section {
   }
 }
 */
-
 
 
 
