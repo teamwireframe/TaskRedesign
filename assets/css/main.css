@@ -785,6 +785,18 @@ section {
   position: relative;
 }
 
+.hero .carousel .overlay{
+	width: 100%;
+	height: 100%;
+/*	background: #fff;*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+/*	clip-path: polygon(0 0, 45% 0, 53% 100%, 0% 100%);*/
+/*	opacity: 0.2;*/
+}
+
 .hero .carousel-item {
   position: absolute;
   inset: 0;
@@ -800,8 +812,6 @@ section {
 	width: 100%;
 	height: auto;
 	object-position: 350px 0;
-	mix-blend-mode: luminosity;
-	-webkit-mix-blend-mode:luminosity;
 }
 
 .hero .carousel-item::before {
@@ -809,7 +819,6 @@ section {
 	width: 100%;
 	height: 100%;
   background-color: rgba(255, 255, 255, 1);
-/*  background-color: rgba(0, 0, 0, 0.708);*/
   position: absolute;
 	top: 0;
 	left: 0;
@@ -953,7 +962,6 @@ section {
 	border: 2px solid var(--color-primary);
 	background-color: transparent;
 }
-
 /*
 @media (min-width: 640px) {
   .hero .carousel-control-prev {
@@ -964,11 +972,7 @@ section {
   }
 }
 */
-@media (min-width:1280px){
-	.hero .carousel{
-		min-height: 750px;
-	}
-}
+
 
 
 /* -------------------------------------- */
