@@ -226,7 +226,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 50px 0 50px 0;
-  min-height: 350px;
+  max-height: 350px;
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
@@ -307,9 +307,16 @@ section {
 	}
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
 	.breadcrumbs{
-		background-position: 250px -250px;
+		background-position: 0px -230px;
+		height: 250px!important;
+		padding: 30px 0;
+	}
+	
+	.breadcrumbs ol{
+		margin-top: 20px;
+		margin-bottom: 0;
 	}
 }
 
@@ -489,6 +496,12 @@ section {
 		clip-path: none;
 		height: 100px;
 		padding: 24px 0;
+	}
+}
+
+@media(min-width:1280px){
+	.headerinner{
+		height: 250px;
 	}
 }
 
@@ -821,7 +834,7 @@ section {
 	margin: 30px 0 20px 0;
 	padding-left: 90px;
 /*  padding: 30px 0 20px 0;*/
-  font-size: 80px;
+  font-size: 70px;
   font-weight: 700;
   position: relative;
 }
@@ -951,7 +964,11 @@ section {
   }
 }
 */
-
+@media (min-width:1280px){
+	.hero .carousel{
+		min-height: 750px;
+	}
+}
 
 
 /* -------------------------------------- */
